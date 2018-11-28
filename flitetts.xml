@@ -1,0 +1,10 @@
+<!-- gmscore can be trusted and is not very useful without
+     the permissions granted here...
+     The ultra-paranoid can still revoke the permissions.
+-->
+<exceptions>
+	<exception package="edu.cmu.cs.speech.tts.flite">
+		<permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="true" />
+		<permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="true" />
+	</exception>
+</exceptions>
